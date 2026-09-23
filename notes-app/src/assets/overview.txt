@@ -1,0 +1,34 @@
+
+
+ App.jsx->
+                        App
+                          │
+             ┌────────────┴────────────┐
+             │                         │
+           Home                    CreateNote
+             │                         │
+       ┌─────┴─────┐                   │
+       │           │                Form State
+    Sidebar       Main
+       │
+       │
+   NoteCard
+
+
+---------------------------------------
+   PROJECT STRUCTURE:
+
+   src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Sidebar.jsx
+│   └── NoteCard.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── CreateNote.jsx
+│   ├── Login.jsx
+│   └── Signup.jsx
+│
+├── App.jsx
+└── main.jsx
