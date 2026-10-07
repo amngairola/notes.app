@@ -4,7 +4,7 @@ import connectDB from "./db/db.js";
 const PORT = process.env.PORT | 3000;
 
 async function startServer() {
-  //await connectDB();
+  await connectDB();
 
   app.listen(PORT, () => {
     console.log(`server is running on PORT ${PORT}`);
